@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T20:57:05.697Z",
+  "updatedAt": "2026-10-18T22:23:08.083Z",
   "seasonYear": 2026,
   "currentWeek": 6,
   "weeks": [
@@ -1855,7 +1855,7 @@
             "name": "Arizona Cardinals",
             "abbr": "ARI",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
-            "score": 6
+            "score": 15
           },
           "home": {
             "id": "14",
@@ -1867,7 +1867,7 @@
           "kickoff": "2026-10-18T20:05Z",
           "status": {
             "state": "in",
-            "detail": "8:23 - 2nd Quarter",
+            "detail": "7:57 - 4th Quarter",
             "completed": false
           }
         },
@@ -1878,19 +1878,19 @@
             "name": "Los Angeles Chargers",
             "abbr": "LAC",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
-            "score": 3
+            "score": 6
           },
           "home": {
             "id": "12",
             "name": "Kansas City Chiefs",
             "abbr": "KC",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
-            "score": 9
+            "score": 19
           },
           "kickoff": "2026-10-18T20:25Z",
           "status": {
             "state": "in",
-            "detail": "0:45 - 1st Quarter",
+            "detail": "5:17 - 3rd Quarter",
             "completed": false
           }
         },
@@ -1901,19 +1901,19 @@
             "name": "Buffalo Bills",
             "abbr": "BUF",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
-            "score": 6
+            "score": 16
           },
           "home": {
             "id": "13",
             "name": "Las Vegas Raiders",
             "abbr": "LV",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
-            "score": 7
+            "score": 13
           },
           "kickoff": "2026-10-18T20:25Z",
           "status": {
             "state": "in",
-            "detail": "14:45 - 2nd Quarter",
+            "detail": "7:18 - 3rd Quarter",
             "completed": false
           }
         },
