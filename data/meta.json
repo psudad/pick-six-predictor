@@ -1,0 +1,9 @@
+{
+  "updatedAt": "2026-10-18T14:10:10.864Z",
+  "seasonYear": 2026,
+  "currentWeek": 6,
+  "sources": [
+    "espn-scoreboard",
+    "espn-standings"
+  ]
+}

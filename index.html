@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Pick Six — NFL picks tracker and explainable game predictor" />
+    <title>Pick Six</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="brand-kicker">NFL picks &amp; predictions</p>
+      <h1>Pick Six</h1>
+      <p id="last-updated" class="last-updated muted" aria-live="polite"></p>
+    </header>
+
+    <nav class="main-nav" aria-label="Main sections">
+      <button type="button" class="nav-btn nav-btn--active" data-view="games">Home</button>
+      <button type="button" class="nav-btn" data-view="accuracy">Accuracy</button>
+      <button type="button" class="nav-btn" data-view="standings">Standings</button>
+      <button type="button" class="nav-btn" data-view="teams">Teams</button>
+      <button type="button" class="nav-btn" data-view="backup">Backup</button>
+    </nav>
+
+    <main id="app">
+      <section id="view-games" class="view view--active" aria-labelledby="games-heading">
+        <article class="hero-predictor" aria-labelledby="predictor-hero-title">
+          <span class="hero-badge">Pick Six Predictor</span>
+          <h2 id="predictor-hero-title">Simple stats, clear picks</h2>
+          <p>
+            Each game shows the <strong>Pick Six Predictor</strong> pick (win %, point differential,
+            recent form, home-field bonus) next to your tap-to-pick choice.
+          </p>
+          <a class="hero-link" href="#how-predictor">How the predictor works ↓</a>
+        </article>
+
+        <div class="week-bar">
+          <button type="button" id="week-prev" class="icon-btn" aria-label="Previous week">←</button>
+          <div class="week-label">
+            <h2 id="games-heading">Week <span id="week-number">—</span></h2>
+            <p id="season-label" class="muted"></p>
+          </div>
+          <button type="button" id="week-next" class="icon-btn" aria-label="Next week">→</button>
+        </div>
+
+        <p id="load-status" class="status-msg" role="status" aria-live="polite"></p>
+        <p id="live-refresh-note" class="muted small" hidden>Scores refresh automatically during live games.</p>
+
+        <div id="games-list" class="games-list"></div>
+
+        <section id="how-predictor" class="how-predictor">
+          <h2>How the predictor works</h2>
+          <p>
+            The <strong>Pick Six Predictor</strong> scores each team using only games from
+            <em>earlier weeks</em> (no peeking at the same week). For each team we combine:
+          </p>
+          <ul>
+            <li><strong>40%</strong> — season win percentage so far</li>
+            <li><strong>35%</strong> — average point differential per game (scaled to a 0–1 range)</li>
+            <li><strong>25%</strong> — recent form (win rate in the last 3 games)</li>
+            <li><strong>+0.04</strong> — small home-field bonus applied only to the home team</li>
+          </ul>
+          <p>
+            Whichever side has the higher composite score is the predicted winner. Confidence is
+            higher when the two scores are farther apart (about 52%–92%).
+          </p>
+          <p class="muted small">
+            Backtest accuracy on the Accuracy tab uses the same rules for every completed week this
+            season. See README for the full formula.
+          </p>
+        </section>
+
+        <details class="manual-add" id="manual-add-panel">
+          <summary>Add a game manually</summary>
+          <p class="muted small">Use if the schedule cannot load, or for a custom matchup.</p>
+          <form id="manual-game-form">
+            <label>
+              Away team
+              <input type="text" name="away" required placeholder="e.g. Chiefs" autocomplete="off" />
+            </label>
+            <label>
+              Home team
+              <input type="text" name="home" required placeholder="e.g. Bills" autocomplete="off" />
+            </label>
+            <label>
+              Kickoff (optional)
+              <input type="datetime-local" name="kickoff" />
+            </label>
+            <button type="submit" class="btn btn--secondary">Add game</button>
+          </form>
+        </details>
+      </section>
+
+      <section id="view-accuracy" class="view" hidden aria-labelledby="accuracy-heading">
+        <h2 id="accuracy-heading">Accuracy</h2>
+        <p class="muted">Compare your picks with the Pick Six Predictor on finished games.</p>
+
+        <div class="stat-cards stat-cards--two">
+          <article class="stat-card">
+            <h3>Pick Six Predictor</h3>
+            <p class="stat-big" id="acc-predictor-overall">—</p>
+            <p class="muted" id="acc-predictor-detail"></p>
+          </article>
+          <article class="stat-card">
+            <h3>Your picks</h3>
+            <p class="stat-big" id="acc-user-overall">—</p>
+            <p class="muted" id="acc-user-detail"></p>
+          </article>
+        </div>
+
+        <article class="stat-card chart-card">
+          <h3>Predictor accuracy by week</h3>
+          <p class="muted small">Backtest: each week uses only stats from prior weeks.</p>
+          <div id="accuracy-chart" class="chart-wrap" role="img" aria-label="Predictor accuracy by week chart"></div>
+        </article>
+
+        <h3 class="section-title">This week</h3>
+        <div class="stat-cards stat-cards--three">
+          <article class="stat-card">
+            <h3>Your record</h3>
+            <p class="stat-big" id="stat-week-record">—</p>
+            <p class="muted" id="stat-week-detail"></p>
+          </article>
+          <article class="stat-card">
+            <h3>Season record</h3>
+            <p class="stat-big" id="stat-season-record">—</p>
+            <p class="muted" id="stat-season-accuracy"></p>
+          </article>
+          <article class="stat-card">
+            <h3>You vs predictor</h3>
+            <p class="stat-big" id="stat-vs-predictor">—</p>
+            <p class="muted" id="stat-vs-detail"></p>
+          </article>
+        </div>
+
+        <h3 class="section-title">Week-by-week (you)</h3>
+        <div id="history-list" class="history-list"></div>
+      </section>
+
+      <section id="view-standings" class="view" hidden aria-labelledby="standings-heading">
+        <h2 id="standings-heading">Standings</h2>
+        <p class="muted">Division-style tables from ESPN (W–L–T, win %, point differential, streak).</p>
+        <div id="standings-root" class="standings-root"></div>
+      </section>
+
+      <section id="view-teams" class="view" hidden aria-labelledby="teams-heading">
+        <h2 id="teams-heading">Team history</h2>
+        <label class="team-select-label">
+          Choose a team
+          <select id="team-select" class="team-select"></select>
+        </label>
+        <div id="team-panel" class="team-panel muted">Select a team to see this season’s record and game log.</div>
+      </section>
+
+      <section id="view-backup" class="view" hidden aria-labelledby="backup-heading">
+        <h2 id="backup-heading">Backup picks</h2>
+        <p class="muted">
+          Picks stay on this device. Export JSON to back up or move to another phone or computer.
+        </p>
+        <div class="backup-actions">
+          <button type="button" id="export-btn" class="btn">Export JSON</button>
+          <label class="btn btn--secondary file-label">
+            Import JSON
+            <input type="file" id="import-input" accept="application/json,.json" hidden />
+          </label>
+        </div>
+        <p id="backup-msg" class="status-msg" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Schedule and scores from ESPN’s public API. Not affiliated with the NFL. No tracking or analytics.</p>
+    </footer>
+
+    <script src="predictor-logic.js"></script>
+    <script src="divisions.js"></script>
+    <script src="espn.js"></script>
+    <script src="storage.js"></script>
+    <script src="stats.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
