@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T14:10:10.864Z",
+  "updatedAt": "2026-10-18T14:40:11.668Z",
   "seasonYear": 2026,
   "currentWeek": 6,
   "weeks": [
@@ -1862,12 +1862,12 @@
             "name": "Jacksonville Jaguars",
             "abbr": "JAX",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
-            "score": 0
+            "score": 7
           },
           "kickoff": "2026-10-18T13:30Z",
           "status": {
             "state": "in",
-            "detail": "End of 1st Quarter",
+            "detail": "5:38 - 2nd Quarter",
             "completed": false
           }
         },
