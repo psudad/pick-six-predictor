@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T14:40:11.668Z",
+  "updatedAt": "2026-10-18T20:57:05.697Z",
   "seasonYear": 2026,
   "currentWeek": 6,
   "weeks": [
@@ -1849,209 +1849,25 @@
       "week": 6,
       "games": [
         {
-          "id": "401872996",
-          "away": {
-            "id": "34",
-            "name": "Houston Texans",
-            "abbr": "HOU",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-            "score": 7
-          },
-          "home": {
-            "id": "30",
-            "name": "Jacksonville Jaguars",
-            "abbr": "JAX",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
-            "score": 7
-          },
-          "kickoff": "2026-10-18T13:30Z",
-          "status": {
-            "state": "in",
-            "detail": "5:38 - 2nd Quarter",
-            "completed": false
-          }
-        },
-        {
-          "id": "401872999",
-          "away": {
-            "id": "3",
-            "name": "Chicago Bears",
-            "abbr": "CHI",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
-            "score": 0
-          },
-          "home": {
-            "id": "1",
-            "name": "Atlanta Falcons",
-            "abbr": "ATL",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
-            "score": 0
-          },
-          "kickoff": "2026-10-18T17:00Z",
-          "status": {
-            "state": "pre",
-            "detail": "Sun, October 18th at 1:00 PM EDT",
-            "completed": false
-          }
-        },
-        {
-          "id": "401872997",
-          "away": {
-            "id": "33",
-            "name": "Baltimore Ravens",
-            "abbr": "BAL",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
-            "score": 0
-          },
-          "home": {
-            "id": "5",
-            "name": "Cleveland Browns",
-            "abbr": "CLE",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
-            "score": 0
-          },
-          "kickoff": "2026-10-18T17:00Z",
-          "status": {
-            "state": "pre",
-            "detail": "Sun, October 18th at 1:00 PM EDT",
-            "completed": false
-          }
-        },
-        {
-          "id": "401873003",
-          "away": {
-            "id": "10",
-            "name": "Tennessee Titans",
-            "abbr": "TEN",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
-            "score": 0
-          },
-          "home": {
-            "id": "11",
-            "name": "Indianapolis Colts",
-            "abbr": "IND",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
-            "score": 0
-          },
-          "kickoff": "2026-10-18T17:00Z",
-          "status": {
-            "state": "pre",
-            "detail": "Sun, October 18th at 1:00 PM EDT",
-            "completed": false
-          }
-        },
-        {
-          "id": "401873001",
-          "away": {
-            "id": "20",
-            "name": "New York Jets",
-            "abbr": "NYJ",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
-            "score": 0
-          },
-          "home": {
-            "id": "17",
-            "name": "New England Patriots",
-            "abbr": "NE",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
-            "score": 0
-          },
-          "kickoff": "2026-10-18T17:00Z",
-          "status": {
-            "state": "pre",
-            "detail": "Sun, October 18th at 1:00 PM EDT",
-            "completed": false
-          }
-        },
-        {
-          "id": "401873000",
-          "away": {
-            "id": "18",
-            "name": "New Orleans Saints",
-            "abbr": "NO",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
-            "score": 0
-          },
-          "home": {
-            "id": "19",
-            "name": "New York Giants",
-            "abbr": "NYG",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
-            "score": 0
-          },
-          "kickoff": "2026-10-18T17:00Z",
-          "status": {
-            "state": "pre",
-            "detail": "Sun, October 18th at 1:00 PM EDT",
-            "completed": false
-          }
-        },
-        {
-          "id": "401872998",
-          "away": {
-            "id": "29",
-            "name": "Carolina Panthers",
-            "abbr": "CAR",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
-            "score": 0
-          },
-          "home": {
-            "id": "21",
-            "name": "Philadelphia Eagles",
-            "abbr": "PHI",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
-            "score": 0
-          },
-          "kickoff": "2026-10-18T17:00Z",
-          "status": {
-            "state": "pre",
-            "detail": "Sun, October 18th at 1:00 PM EDT",
-            "completed": false
-          }
-        },
-        {
-          "id": "401873002",
-          "away": {
-            "id": "23",
-            "name": "Pittsburgh Steelers",
-            "abbr": "PIT",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
-            "score": 0
-          },
-          "home": {
-            "id": "27",
-            "name": "Tampa Bay Buccaneers",
-            "abbr": "TB",
-            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
-            "score": 0
-          },
-          "kickoff": "2026-10-18T17:00Z",
-          "status": {
-            "state": "pre",
-            "detail": "Sun, October 18th at 1:00 PM EDT",
-            "completed": false
-          }
-        },
-        {
           "id": "401873004",
           "away": {
             "id": "22",
             "name": "Arizona Cardinals",
             "abbr": "ARI",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
-            "score": 0
+            "score": 6
           },
           "home": {
             "id": "14",
             "name": "Los Angeles Rams",
             "abbr": "LAR",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
-            "score": 0
+            "score": 9
           },
           "kickoff": "2026-10-18T20:05Z",
           "status": {
-            "state": "pre",
-            "detail": "Sun, October 18th at 4:05 PM EDT",
+            "state": "in",
+            "detail": "8:23 - 2nd Quarter",
             "completed": false
           }
         },
@@ -2062,19 +1878,19 @@
             "name": "Los Angeles Chargers",
             "abbr": "LAC",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lac.png",
-            "score": 0
+            "score": 3
           },
           "home": {
             "id": "12",
             "name": "Kansas City Chiefs",
             "abbr": "KC",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
-            "score": 0
+            "score": 9
           },
           "kickoff": "2026-10-18T20:25Z",
           "status": {
-            "state": "pre",
-            "detail": "Sun, October 18th at 4:25 PM EDT",
+            "state": "in",
+            "detail": "0:45 - 1st Quarter",
             "completed": false
           }
         },
@@ -2085,20 +1901,204 @@
             "name": "Buffalo Bills",
             "abbr": "BUF",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
-            "score": 0
+            "score": 6
           },
           "home": {
             "id": "13",
             "name": "Las Vegas Raiders",
             "abbr": "LV",
             "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
-            "score": 0
+            "score": 7
           },
           "kickoff": "2026-10-18T20:25Z",
           "status": {
-            "state": "pre",
-            "detail": "Sun, October 18th at 4:25 PM EDT",
+            "state": "in",
+            "detail": "14:45 - 2nd Quarter",
             "completed": false
+          }
+        },
+        {
+          "id": "401872996",
+          "away": {
+            "id": "34",
+            "name": "Houston Texans",
+            "abbr": "HOU",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+            "score": 34
+          },
+          "home": {
+            "id": "30",
+            "name": "Jacksonville Jaguars",
+            "abbr": "JAX",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+            "score": 31
+          },
+          "kickoff": "2026-10-18T13:30Z",
+          "status": {
+            "state": "post",
+            "detail": "Final",
+            "completed": true
+          }
+        },
+        {
+          "id": "401872999",
+          "away": {
+            "id": "3",
+            "name": "Chicago Bears",
+            "abbr": "CHI",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+            "score": 31
+          },
+          "home": {
+            "id": "1",
+            "name": "Atlanta Falcons",
+            "abbr": "ATL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+            "score": 23
+          },
+          "kickoff": "2026-10-18T17:00Z",
+          "status": {
+            "state": "post",
+            "detail": "Final",
+            "completed": true
+          }
+        },
+        {
+          "id": "401872997",
+          "away": {
+            "id": "33",
+            "name": "Baltimore Ravens",
+            "abbr": "BAL",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+            "score": 10
+          },
+          "home": {
+            "id": "5",
+            "name": "Cleveland Browns",
+            "abbr": "CLE",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "score": 13
+          },
+          "kickoff": "2026-10-18T17:00Z",
+          "status": {
+            "state": "post",
+            "detail": "Final",
+            "completed": true
+          }
+        },
+        {
+          "id": "401873003",
+          "away": {
+            "id": "10",
+            "name": "Tennessee Titans",
+            "abbr": "TEN",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+            "score": 26
+          },
+          "home": {
+            "id": "11",
+            "name": "Indianapolis Colts",
+            "abbr": "IND",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+            "score": 20
+          },
+          "kickoff": "2026-10-18T17:00Z",
+          "status": {
+            "state": "post",
+            "detail": "Final",
+            "completed": true
+          }
+        },
+        {
+          "id": "401873001",
+          "away": {
+            "id": "20",
+            "name": "New York Jets",
+            "abbr": "NYJ",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+            "score": 19
+          },
+          "home": {
+            "id": "17",
+            "name": "New England Patriots",
+            "abbr": "NE",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+            "score": 26
+          },
+          "kickoff": "2026-10-18T17:00Z",
+          "status": {
+            "state": "post",
+            "detail": "Final",
+            "completed": true
+          }
+        },
+        {
+          "id": "401873000",
+          "away": {
+            "id": "18",
+            "name": "New Orleans Saints",
+            "abbr": "NO",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+            "score": 34
+          },
+          "home": {
+            "id": "19",
+            "name": "New York Giants",
+            "abbr": "NYG",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+            "score": 27
+          },
+          "kickoff": "2026-10-18T17:00Z",
+          "status": {
+            "state": "post",
+            "detail": "Final",
+            "completed": true
+          }
+        },
+        {
+          "id": "401872998",
+          "away": {
+            "id": "29",
+            "name": "Carolina Panthers",
+            "abbr": "CAR",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+            "score": 25
+          },
+          "home": {
+            "id": "21",
+            "name": "Philadelphia Eagles",
+            "abbr": "PHI",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+            "score": 14
+          },
+          "kickoff": "2026-10-18T17:00Z",
+          "status": {
+            "state": "post",
+            "detail": "Final",
+            "completed": true
+          }
+        },
+        {
+          "id": "401873002",
+          "away": {
+            "id": "23",
+            "name": "Pittsburgh Steelers",
+            "abbr": "PIT",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+            "score": 26
+          },
+          "home": {
+            "id": "27",
+            "name": "Tampa Bay Buccaneers",
+            "abbr": "TB",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+            "score": 19
+          },
+          "kickoff": "2026-10-18T17:00Z",
+          "status": {
+            "state": "post",
+            "detail": "Final/OT",
+            "completed": true
           }
         },
         {
@@ -2180,11 +2180,11 @@
       "abbr": "ATL",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
       "wins": 2,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
       "home": {
         "wins": 0,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
       "away": {
@@ -2192,9 +2192,19 @@
         "losses": 1,
         "ties": 0
       },
-      "pointsFor": 119,
-      "pointsAgainst": 122,
+      "pointsFor": 142,
+      "pointsAgainst": 153,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "Chicago Bears",
+          "opponentAbbr": "CHI",
+          "side": "home",
+          "result": "L",
+          "scoreFor": 23,
+          "scoreAgainst": 31
+        },
         {
           "week": 5,
           "kickoff": "2026-10-12T00:20Z",
@@ -2325,7 +2335,7 @@
       "name": "Chicago Bears",
       "abbr": "CHI",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
-      "wins": 3,
+      "wins": 4,
       "losses": 2,
       "ties": 0,
       "home": {
@@ -2334,13 +2344,23 @@
         "ties": 0
       },
       "away": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
-      "pointsFor": 119,
-      "pointsAgainst": 96,
+      "pointsFor": 150,
+      "pointsAgainst": 119,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "Atlanta Falcons",
+          "opponentAbbr": "ATL",
+          "side": "away",
+          "result": "W",
+          "scoreFor": 31,
+          "scoreAgainst": 23
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T17:00Z",
@@ -2471,11 +2491,11 @@
       "name": "Cleveland Browns",
       "abbr": "CLE",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
-      "wins": 3,
+      "wins": 4,
       "losses": 2,
       "ties": 0,
       "home": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       },
@@ -2484,9 +2504,19 @@
         "losses": 2,
         "ties": 0
       },
-      "pointsFor": 93,
-      "pointsAgainst": 112,
+      "pointsFor": 106,
+      "pointsAgainst": 122,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "Baltimore Ravens",
+          "opponentAbbr": "BAL",
+          "side": "home",
+          "result": "W",
+          "scoreFor": 13,
+          "scoreAgainst": 10
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T17:00Z",
@@ -2846,7 +2876,7 @@
       "name": "Tennessee Titans",
       "abbr": "TEN",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
-      "wins": 0,
+      "wins": 1,
       "losses": 5,
       "ties": 0,
       "home": {
@@ -2855,13 +2885,23 @@
         "ties": 0
       },
       "away": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "ties": 0
       },
-      "pointsFor": 58,
-      "pointsAgainst": 109,
+      "pointsFor": 84,
+      "pointsAgainst": 129,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "Indianapolis Colts",
+          "opponentAbbr": "IND",
+          "side": "away",
+          "result": "W",
+          "scoreFor": 26,
+          "scoreAgainst": 20
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T17:00Z",
@@ -2920,11 +2960,11 @@
       "abbr": "IND",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
       "wins": 2,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
       "home": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       },
       "away": {
@@ -2932,9 +2972,19 @@
         "losses": 2,
         "ties": 0
       },
-      "pointsFor": 124,
-      "pointsAgainst": 138,
+      "pointsFor": 144,
+      "pointsAgainst": 164,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "Tennessee Titans",
+          "opponentAbbr": "TEN",
+          "side": "home",
+          "result": "L",
+          "scoreFor": 20,
+          "scoreAgainst": 26
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T17:00Z",
@@ -3347,11 +3397,11 @@
       "name": "New England Patriots",
       "abbr": "NE",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
-      "wins": 3,
+      "wins": 4,
       "losses": 2,
       "ties": 0,
       "home": {
-        "wins": 2,
+        "wins": 3,
         "losses": 0,
         "ties": 0
       },
@@ -3360,9 +3410,19 @@
         "losses": 2,
         "ties": 0
       },
-      "pointsFor": 110,
-      "pointsAgainst": 94,
+      "pointsFor": 136,
+      "pointsAgainst": 113,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "New York Jets",
+          "opponentAbbr": "NYJ",
+          "side": "home",
+          "result": "W",
+          "scoreFor": 26,
+          "scoreAgainst": 19
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T17:00Z",
@@ -3420,7 +3480,7 @@
       "name": "New Orleans Saints",
       "abbr": "NO",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
-      "wins": 1,
+      "wins": 2,
       "losses": 4,
       "ties": 0,
       "home": {
@@ -3429,13 +3489,23 @@
         "ties": 0
       },
       "away": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
-      "pointsFor": 118,
-      "pointsAgainst": 151,
+      "pointsFor": 152,
+      "pointsAgainst": 178,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "New York Giants",
+          "opponentAbbr": "NYG",
+          "side": "away",
+          "result": "W",
+          "scoreFor": 34,
+          "scoreAgainst": 27
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T17:00Z",
@@ -3494,11 +3564,11 @@
       "abbr": "NYG",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
       "wins": 3,
-      "losses": 1,
+      "losses": 2,
       "ties": 1,
       "home": {
         "wins": 3,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       },
       "away": {
@@ -3506,9 +3576,19 @@
         "losses": 1,
         "ties": 0
       },
-      "pointsFor": 109,
-      "pointsAgainst": 106,
+      "pointsFor": 136,
+      "pointsAgainst": 140,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "New Orleans Saints",
+          "opponentAbbr": "NO",
+          "side": "home",
+          "result": "L",
+          "scoreFor": 27,
+          "scoreAgainst": 34
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T17:00Z",
@@ -3567,7 +3647,7 @@
       "abbr": "NYJ",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
       "wins": 2,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
       "home": {
         "wins": 1,
@@ -3576,12 +3656,22 @@
       },
       "away": {
         "wins": 1,
-        "losses": 2,
+        "losses": 3,
         "ties": 0
       },
-      "pointsFor": 93,
-      "pointsAgainst": 96,
+      "pointsFor": 112,
+      "pointsAgainst": 122,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "New England Patriots",
+          "opponentAbbr": "NE",
+          "side": "away",
+          "result": "L",
+          "scoreFor": 19,
+          "scoreAgainst": 26
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T17:00Z",
@@ -3640,11 +3730,11 @@
       "abbr": "PHI",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
       "wins": 2,
-      "losses": 3,
+      "losses": 4,
       "ties": 0,
       "home": {
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0
       },
       "away": {
@@ -3652,9 +3742,19 @@
         "losses": 2,
         "ties": 0
       },
-      "pointsFor": 92,
-      "pointsAgainst": 112,
+      "pointsFor": 106,
+      "pointsAgainst": 137,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "Carolina Panthers",
+          "opponentAbbr": "CAR",
+          "side": "home",
+          "result": "L",
+          "scoreFor": 14,
+          "scoreAgainst": 25
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T13:30Z",
@@ -3785,7 +3885,7 @@
       "name": "Pittsburgh Steelers",
       "abbr": "PIT",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
-      "wins": 3,
+      "wins": 4,
       "losses": 2,
       "ties": 0,
       "home": {
@@ -3794,13 +3894,23 @@
         "ties": 0
       },
       "away": {
-        "wins": 0,
+        "wins": 1,
         "losses": 2,
         "ties": 0
       },
-      "pointsFor": 111,
-      "pointsAgainst": 109,
+      "pointsFor": 137,
+      "pointsAgainst": 128,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "Tampa Bay Buccaneers",
+          "opponentAbbr": "TB",
+          "side": "away",
+          "result": "W",
+          "scoreFor": 26,
+          "scoreAgainst": 19
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T17:00Z",
@@ -4088,11 +4198,11 @@
       "abbr": "TB",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
       "wins": 1,
-      "losses": 4,
+      "losses": 5,
       "ties": 0,
       "home": {
         "wins": 0,
-        "losses": 3,
+        "losses": 4,
         "ties": 0
       },
       "away": {
@@ -4100,9 +4210,19 @@
         "losses": 1,
         "ties": 0
       },
-      "pointsFor": 100,
-      "pointsAgainst": 112,
+      "pointsFor": 119,
+      "pointsAgainst": 138,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "Pittsburgh Steelers",
+          "opponentAbbr": "PIT",
+          "side": "home",
+          "result": "L",
+          "scoreFor": 19,
+          "scoreAgainst": 26
+        },
         {
           "week": 5,
           "kickoff": "2026-10-09T00:15Z",
@@ -4233,7 +4353,7 @@
       "name": "Carolina Panthers",
       "abbr": "CAR",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
-      "wins": 2,
+      "wins": 3,
       "losses": 2,
       "ties": 0,
       "home": {
@@ -4242,13 +4362,23 @@
         "ties": 0
       },
       "away": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
-      "pointsFor": 121,
-      "pointsAgainst": 109,
+      "pointsFor": 146,
+      "pointsAgainst": 123,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "Philadelphia Eagles",
+          "opponentAbbr": "PHI",
+          "side": "away",
+          "result": "W",
+          "scoreFor": 25,
+          "scoreAgainst": 14
+        },
         {
           "week": 4,
           "kickoff": "2026-10-05T00:20Z",
@@ -4297,11 +4427,11 @@
       "abbr": "JAX",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
       "wins": 4,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
       "home": {
         "wins": 3,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       },
       "away": {
@@ -4309,9 +4439,19 @@
         "losses": 1,
         "ties": 0
       },
-      "pointsFor": 123,
-      "pointsAgainst": 70,
+      "pointsFor": 154,
+      "pointsAgainst": 104,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T13:30Z",
+          "opponent": "Houston Texans",
+          "opponentAbbr": "HOU",
+          "side": "home",
+          "result": "L",
+          "scoreFor": 31,
+          "scoreAgainst": 34
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T13:30Z",
@@ -4370,7 +4510,7 @@
       "abbr": "BAL",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
       "wins": 4,
-      "losses": 1,
+      "losses": 2,
       "ties": 0,
       "home": {
         "wins": 1,
@@ -4379,12 +4519,22 @@
       },
       "away": {
         "wins": 3,
-        "losses": 0,
+        "losses": 1,
         "ties": 0
       },
-      "pointsFor": 146,
-      "pointsAgainst": 119,
+      "pointsFor": 156,
+      "pointsAgainst": 132,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T17:00Z",
+          "opponent": "Cleveland Browns",
+          "opponentAbbr": "CLE",
+          "side": "away",
+          "result": "L",
+          "scoreFor": 10,
+          "scoreAgainst": 13
+        },
         {
           "week": 5,
           "kickoff": "2026-10-12T00:20Z",
@@ -4442,7 +4592,7 @@
       "name": "Houston Texans",
       "abbr": "HOU",
       "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
-      "wins": 1,
+      "wins": 2,
       "losses": 4,
       "ties": 0,
       "home": {
@@ -4451,13 +4601,23 @@
         "ties": 0
       },
       "away": {
-        "wins": 1,
+        "wins": 2,
         "losses": 1,
         "ties": 0
       },
-      "pointsFor": 110,
-      "pointsAgainst": 112,
+      "pointsFor": 144,
+      "pointsAgainst": 143,
       "gameLog": [
+        {
+          "week": 6,
+          "kickoff": "2026-10-18T13:30Z",
+          "opponent": "Jacksonville Jaguars",
+          "opponentAbbr": "JAX",
+          "side": "away",
+          "result": "W",
+          "scoreFor": 34,
+          "scoreAgainst": 31
+        },
         {
           "week": 5,
           "kickoff": "2026-10-11T17:00Z",
