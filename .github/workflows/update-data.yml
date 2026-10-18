@@ -1,0 +1,46 @@
+# Refresh committed ESPN snapshots in data/ for GitHub Pages fallback.
+# Cron times are UTC. US Eastern is UTC-4 (EDT, Mar–Nov) or UTC-5 (EST).
+#
+# Approximate game windows covered:
+#   Sun 20:10 & 21:10 UTC — ~4:10 PM ET (after early Sunday slate)
+#   Sun 23:50 UTC — ~7:50 PM ET (late afternoon games)
+#   Mon 04:15 UTC — Sunday night / early Monday finish
+#   Tue 04:15 UTC — Monday Night Football
+#   Fri 04:15 UTC — Thursday Night Football (Friday UTC)
+
+name: Update NFL data snapshots
+
+on:
+  schedule:
+    - cron: "10 20,21 * 9-12 0"
+    - cron: "10 20,21 * 1 0"
+    - cron: "50 23 * 9-12 0"
+    - cron: "50 23 * 1 0"
+    - cron: "15 4 * 1-2 1"
+    - cron: "15 4 * 1-2 2"
+    - cron: "15 4 * 1 5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch ESPN and write data/
+        run: node scripts/update-data.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh NFL data snapshots from ESPN"
+          git push
