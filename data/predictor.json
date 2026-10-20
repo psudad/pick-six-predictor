@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T09:49:49.383Z",
+  "updatedAt": "2026-10-20T09:23:55.374Z",
   "seasonYear": 2026,
   "formula": {
     "winPct": 0.4,
@@ -8,9 +8,9 @@
     "homeFieldBonus": 0.04
   },
   "overall": {
-    "correct": 49,
-    "total": 91,
-    "accuracy": 53.8
+    "correct": 50,
+    "total": 92,
+    "accuracy": 54.3
   },
   "byWeek": [
     {
@@ -45,9 +45,9 @@
     },
     {
       "week": 6,
-      "correct": 8,
-      "total": 13,
-      "accuracy": 61.5
+      "correct": 9,
+      "total": 14,
+      "accuracy": 64.3
     }
   ],
   "chart": [
@@ -73,7 +73,7 @@
     },
     {
       "week": 6,
-      "accuracy": 61.5
+      "accuracy": 64.3
     }
   ]
 }
